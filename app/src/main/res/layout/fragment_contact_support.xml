@@ -1,0 +1,18 @@
+<chitoiu.com.balance.forecasting.layouts.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                               xmlns:tools="http://schemas.android.com/tools"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="match_parent"
+                                                               android:background="@color/colorPrimaryLightBackground"
+                                                               android:paddingTop="@dimen/fragment_margin"
+                                                               tools:context="chitoiu.com.balance.forecasting.fragments.AccountFragment">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fragment_margin"
+        android:text="@string/contact_support_fragment"
+        android:textSize="@dimen/font_large"/>
+
+</chitoiu.com.balance.forecasting.layouts.SlidingRelativeLayout>

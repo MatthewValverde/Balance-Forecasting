@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:background="@color/colorPrimaryLightBackground">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_list_black_24dp"
+            android:title="Account"/>
+        <item
+            android:id="@+id/nav_bills_income"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Bills &amp; Income"/>
+        <item
+            android:id="@+id/nav_forecast"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="Forecast"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"/>
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/ic_mail_outline_black_24dp"
+            android:title="Contact Support"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_help_outline_black_24dp"
+            android:title="About"/>
+    </group>
+
+    <!--  <item android:title="Communicate">
+          <menu>
+              <item
+                  android:id="@+id/nav_share"
+                  android:icon="@drawable/ic_menu_share"
+                  android:title="Share"/>
+              <item
+                  android:id="@+id/nav_send"
+                  android:icon="@drawable/ic_menu_send"
+                  android:title="Send"/>
+          </menu>
+      </item>-->
+
+</menu>

@@ -1,0 +1,66 @@
+<chitoiu.com.balance.forecasting.layouts.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                               xmlns:tools="http://schemas.android.com/tools"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="match_parent"
+                                                               android:background="@color/colorPrimaryLightBackground"
+                                                               android:paddingTop="@dimen/fragment_margin"
+                                                               tools:context="chitoiu.com.balance.forecasting.fragments.AccountFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/fragment_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/fragment_margin"
+                android:text="@string/about_fragment"
+                android:textSize="@dimen/font_large"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/fragment_margin"
+                android:src="@drawable/ic_account_circle_black_48dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Present:"
+                android:textColor="#000000"
+                android:textSize="@dimen/font_medium_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:text="@string/lorem_ipsum"
+                android:textSize="@dimen/font_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Future:"
+                android:textColor="#000000"
+                android:textSize="@dimen/font_medium_small"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/lorem_ipsum"
+                android:textSize="@dimen/font_small"/>
+        </LinearLayout>
+    </ScrollView>
+</chitoiu.com.balance.forecasting.layouts.SlidingRelativeLayout>

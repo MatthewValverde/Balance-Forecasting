@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="anjlab-iabv3-current.anjlab-iabv3-current">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/anjlab-iabv3-current/anjlab-iabv3-current.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

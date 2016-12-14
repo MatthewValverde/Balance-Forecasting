@@ -1,0 +1,70 @@
+<chitoiu.com.balance.forecasting.layouts.SlidingRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                               xmlns:tools="http://schemas.android.com/tools"
+                                                               android:layout_width="match_parent"
+                                                               android:layout_height="match_parent"
+                                                               xmlns:ads="http://schemas.android.com/apk/res-auto"
+                                                               android:layout_marginBottom="@dimen/fragment_margin"
+                                                               android:layout_marginTop="@dimen/fragment_margin"
+                                                               android:background="@color/colorPrimaryLightBackground"
+                                                               android:paddingTop="@dimen/fragment_margin"
+                                                               tools:context="chitoiu.com.balance.forecasting.fragments.AccountFragment">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fragment_margin"
+        android:text="@string/forecast_fragment"
+        android:textSize="@dimen/font_large"/>
+
+    <!-- /*Using a Table Layout as Opposed to a ListView*/
+    <TableLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/fragment_margin"/>-->
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/titleTextView"/>
+
+    <!--Separator-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/titleTextView"
+        android:background="@color/colorLine"/>
+
+    <!--Separator-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/listView"
+        android:background="@color/colorLine"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_add_white_24dp"/>
+
+    <RelativeLayout
+        android:id="@+id/child_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer"/>
+</chitoiu.com.balance.forecasting.layouts.SlidingRelativeLayout>

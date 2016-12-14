@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="5">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:paddingBottom="@dimen/fragment_margin"
+            android:paddingTop="@dimen/fragment_margin"
+            android:tag="label"
+            android:text="label"
+            android:textSize="@dimen/font_medium">
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#cccccc"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/column1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:paddingBottom="@dimen/fragment_margin"
+            android:paddingTop="@dimen/fragment_margin"
+            android:tag="column1"
+            android:text="label"
+            android:textSize="@dimen/font_medium">
+        </TextView>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="#cccccc"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/column2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/fragment_margin"
+            android:paddingBottom="@dimen/fragment_margin"
+            android:paddingTop="@dimen/fragment_margin"
+            android:tag="column2"
+            android:text="label"
+            android:textSize="@dimen/font_medium">
+        </TextView>
+
+    </RelativeLayout>
+
+</LinearLayout>
